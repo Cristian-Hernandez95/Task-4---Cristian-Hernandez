@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../estilo/style.css">
+    <title>Olympus Gym - Raffle</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="nav"><a href="../index.html">Home</a>
+                <a href="./aboutUs.html">About us</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./schedule.html">Schedule</a>
+                <a href="./benefitsandTips.html">Benefits and Tips</a>
+                <a href="./forms.html">Raffle</a>
+            </div>
+                <img src="../img/logo.png" id="logo" alt="logo" width="90">
+        </nav>
+    </header>
+    <div id="title-raffle">
+        <h1>Raffle</h1>
+        <h3 id="h3-raffle">Every month in this section you can participate in a raffle.</h3>
+    </div>
+    <main class="main-form">
+    <div id="img-form"><img src="../img/together-2.jpg" id="img1-form" width="500" alt="">
+        <img src="../img/together.jpg" width="500" id="img2-form" alt="">
+    </div>
+    <form action="./show_data.html" id="forms">
+        <fieldset>
+            <legend>Participate in our raffle for a month of personalized training.</legend>
+            <div id="name">
+            <label class="name">Name:</label>
+            <input type="text" name="name" value=""> <br>
+            <label>Last Name:</label>
+            <input type="text" name="lastname" value="">
+            </div>
+        </fieldset>
+        <fieldset id="email1">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email">
+        </fieldset>
+        <fieldset>
+            <fieldset>
+                <label>Choose Your Gender:</label>
+                <select name="gender" id="gender">
+                <option>Man</option>
+                <option>Women</option>
+                <option>Other</option>
+                </select>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <label>Country:</label>
+            <select name="country" id="country">
+            <option>Argentina</option>
+            <option>Chile</option>
+            <option>Colombia</option>
+            <option>Peru</option>
+            <option>España</option>
+            <option>Ecuador</option>
+            </select>
+        </fieldset>
+        <fieldset id="payment">
+            <label>Payment options:</label>
+            <div id="cash">
+                <label>Cash</label>
+                <input type="radio" name="pay" value="Cash">
+            </div>
+            <div id="credit">
+                <label>Credit cards</label>
+                <input type="radio" name="pay" value="Credit card">
+            </div>
+            <div id="debit">
+                <label>Debit cards</label>
+                <input type="radio" name="pay" value="Debit card">
+            </div>
+        </fieldset>
+        <fieldset id="services">
+            <label>Services</label>
+            <textarea name="services" id="services1" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <div class="terms">
+                <input type="checkbox" name="terminos" required>
+                <label>I accept terms and conditions</label>
+            </div>
+        </fieldset>
+                <input type="submit" value="Enviar" id="submit">
+    </form>
+    </main>
+    <footer>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.894476269751!2d-58.672039882556156!3d-34.65736779999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf608a3245f3%3A0x49747529fdfbbaa8!2sGral.%20F%C3%A9lix%20Olaz%C3%A1bal%20993%2C%20B1714FZO%20Ituzaing%C3%B3%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1676424284043!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+</html>
